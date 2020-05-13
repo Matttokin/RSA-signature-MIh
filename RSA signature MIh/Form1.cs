@@ -97,7 +97,6 @@ namespace RSA_signature_MIh
         {
             try
             {
-                textBox11.Text = "";
                 int eZhach = Convert.ToInt32(textBox7.Text.ToString());
                 int n = Convert.ToInt32(textBox8.Text.ToString());
                 string m = textBox9.Text.ToString();
